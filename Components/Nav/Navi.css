@@ -1,0 +1,142 @@
+.Navi{
+  float: auto;
+  padding: auto;
+  margin: auto;
+  background-color: white;
+  
+}
+.navbar{
+    height: 100%;
+    width: 100%;
+    border: 1px rgb(210, 210, 210);
+    border-style: inset;
+    align-items: center;
+    align-content: center;
+    justify-content:center;
+    justify-items: center;
+    justify-self: center;
+    
+    
+  }
+  
+  .navbarbrand{
+  
+    font-family:cursive;
+    color:#dddddd;
+    font-weight:lighter;
+    font-size:30px ;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    float: center;
+    justify-content:center;
+    
+    
+    
+  }
+  .navbarbrand:hover{
+    color: white;
+    font-weight:bolder;
+  }
+
+  .navtabs{
+    margin-left: 12%;
+  }
+  
+  .navtab{
+    margin-right:15px;
+    padding-top: 15px;
+    float: left;
+    text-decoration: none;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	  background:-moz-linear-gradient(to right, #30CFD0 0%, #330867 100%); 
+    background: -webkit-linear-gradient(to right, #30CFD0 0%, #330867 100%); 
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+  font-size: 16px;
+  font-weight: 600;
+  }
+  .navtab::before{
+    display: inline;
+    
+  }
+  .navtab:hover{
+    font-size:18px;
+    margin-right:16px;
+    border-top: 0px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-right: 1px white;
+    border-style: inset;
+    border-radius: 15%;
+  }
+  .navtab:active{
+    font-size:22px;
+    margin-right:10px;
+    border-top: 0px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-right: 1px white;
+    border-style: inset;
+    border-radius: 15%;
+  }
+  .search-bar{
+    
+    float: right;
+    margin-right: 16%;
+    
+  }
+  .barsearchbar{
+    text-align: right;
+    height: 25px;
+    width: 185px;
+    
+    
+  }
+  .notif{
+    margin-top: 5px;
+    margin-left: 15px;
+    float: right;
+  }
+  .chat_msg{
+    margin-top: 5px;
+    margin-left: 10px;
+    float: right;
+  }
+  .shareuplogo{
+    
+  }
+  .notif_counter{
+    height: 16px;
+    width: 16px;
+    color:#dddddd;
+    background-color: red;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight:lighter;
+    font-size:15px ;
+    text-shadow: -0px 0 black, 0 0px black, 0px 0 black, 0 -0px black;
+    
+  }
+
+  .user-img{
+    float: right;
+    margin-left: 10px;
+  }
+  .reactico{
+    margin-top: 5px;
+    margin-left: 16.5%;
+  }
+  .reactico:hover{
+    padding: 0px;
+    width: 51.5px;
+    height: 51.5px;
+    border-radius: 50%;
+    border: 3px black;
+    border-style: inset;
+    border-top: 0px;
+    border-left: 0px;
+    
+  }
+  

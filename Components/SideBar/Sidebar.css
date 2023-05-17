@@ -1,0 +1,61 @@
+.Sidebar{
+    margin-left: 2%;
+    margin-top: 2%;
+    float: left;
+    width: 21%;
+    height: 1024px;
+    border-radius: 5%;
+    text-align: center;
+}
+.side-user-name{
+    border-bottom: 1px gray solid ;
+    padding-bottom: 5px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.side-user-img{
+    padding-top: 5px;
+}
+.sidebars{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 10%;
+    height: 50px;
+}
+.sidebars:hover{
+    background-color: none;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 10%;
+    height: 50px;
+    border-radius: 5%;
+    box-shadow:5px 5px 25px 5px rgba(156, 6, 106, 0.346);;
+    width: 80%;
+}
+.sidebartab{
+    margin-right:15px;
+    margin-top: 30px;
+    padding-top: 15px;
+    
+    text-decoration: none;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	  background:-moz-linear-gradient(to right, #30CFD0 0%, #330867 100%); 
+    background: -webkit-linear-gradient(to right, #30CFD0 0%, #330867 100%); 
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+  font-size: 16px;
+  font-weight: 600;
+}
+.sidebartab:hover{
+    font-size:18px;
+    margin-right:16px;
+    border-top: 0px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-right: 1px white;
+    border-style: inset;
+    border-radius: 15%;
+}

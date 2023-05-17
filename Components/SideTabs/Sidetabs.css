@@ -1,0 +1,9 @@
+.Sidetabs{
+    background-color: antiquewhite;
+    margin-top: 2%;
+    float: right;
+    width: 20%;
+    height: 1024px;
+    border-radius: 5%;
+    text-align: center;
+}
